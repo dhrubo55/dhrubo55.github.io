@@ -38,6 +38,10 @@
 
 <p id="quotes"></p>
 <script>
+
+<div class="quote">
+<article id="quotes"></article>
+<script>
 (function() {
   "use strict";
 
@@ -56,6 +60,21 @@
     quotesHTML += "<p>&ldquo;" + quotes[i][0] + "&rdquo; &mdash; <em>" + quotes[i][1] + "</em></p>";
   }
   document.getElementById("quotes").innerHTML = quotesHTML;
+
+  function change_color(xs) {
+  
+    var result = xs.fontcolor("green");
+    
+  }
+
+}());
+
+</script>
+
+<button type="button" onclick="change_color()">Set text color</button>
+</div>
+	
+	
 
 }());
 
