@@ -78,6 +78,15 @@ body{
 	padding: 10px;
 	clear: both;
 }
+
+#content2{
+	margin: 20px 0;
+	background: white;
+	padding: 10px;
+	clear: both;
+}
+
+
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
