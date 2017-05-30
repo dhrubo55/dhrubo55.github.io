@@ -29,7 +29,7 @@ a{
 
 body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-    background-image: url("E:/colorfulaurora.jpg");
+    background-image: url("colorfulaurora.jpg");
 
 }
 
@@ -67,7 +67,7 @@ body{
 
 #content{
 	margin: 20px 0;
-    background: rgb(76, 175, 80);
+    background: rgba(76, 175, 80, 0.1);
 	padding: 10px;
 	clear: both;
 }
@@ -75,21 +75,21 @@ body{
 
 #content1{
 	margin: 20px 0;
-	background: rgb(76, 175, 80);
+	background: rgba(76, 175, 80, 0.1);
 	padding: 10px;
 	clear: both;
 }
 
 #content2{
 	margin: 20px 0;
-	background: rgb(76, 175, 80);
+	background: rgba(76, 175, 80, 0.1);
 	padding: 10px;
 	clear: both;
 }
 
 #content3{
 	margin: 20px 0;
-	background: rgb(76, 175, 80);
+	background: rgba(76, 175, 80, 0.1);
 	padding: 10px;
 	clear: both;
 }
