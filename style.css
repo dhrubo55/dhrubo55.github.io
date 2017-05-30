@@ -27,6 +27,12 @@ a{
 	a:hover,
 	a:active{ text-decoration: underline; }
 
+p
+{
+   color: white; 	
+}
+
+
 body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
     background-image: url("colorfulaurora.jpg");
@@ -78,6 +84,7 @@ body{
 	background: rgba(76, 175, 80, 0.2);
 	padding: 10px;
 	clear: both;
+    font-color:white;
 }
 
 #content2{
@@ -92,6 +99,7 @@ body{
 	background: rgba(76, 175, 80, 0.2);
 	padding: 10px;
 	clear: both;
+	font-color:white;
 }
 
 #footer{
@@ -106,4 +114,9 @@ body{
 	}
 
 #content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
+ ul li a{ box-shadow: 0px 1px 1px #999; }
+
+ol
+{
+	color: white;
+}
