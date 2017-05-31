@@ -25,6 +25,7 @@
 			<ul>
 				<li><a href="#/home.html">Home</a></li>
 				<li><a href="#/about.html">About</a></li>
+				<li><a href="jstask.html">JStask</a></li>
 				<li><a href="#/contact.html">Contact</a></li>
 			</ul>	
 		</div>
@@ -39,43 +40,6 @@
 				<a href="https://piazza.com/class/j2gx75rskhy4t3">Piazza 391 page</a>
 			</p>
 		</div>
-
-
-<div id="quote">
-<article id="quotes"></article>
-<script>
-(function() {
-  "use strict";
-
-  var quotes = [
-    ["Stay Hungry. Stay Foolish.", "Steve Jobs"],
-    ["Good Artists Copy, Great Artists Steal.", "Pablo Picasso"],
-    ["Argue with idiots, and you become an idiot.", "Paul Graham"],
-    ["Be yourself; everyone else is already taken.", "Oscar Wilde"],
-    ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
-  ].sort(function() {
-    return 0.5 - Math.random();
-  }),
-    quotesHTML = "";
-
-  for (var i = 0; i < quotes.length; i++) {
-    quotesHTML += "<p>&ldquo;" + quotes[i][0] + "&rdquo; &mdash; <em>" + quotes[i][1] + "</em></p>";
-  }
-  document.getElementById("quotes").innerHTML = quotesHTML;
-
-  function change_color(xs) {
-  
-    document.getElementById("quote").style.color = "#ff0000";
-    
-  }
-
-}());
-
-</script>
-
-<button type="button" onclick="change_color()">Set text color</button>
-</div>
-
 
 
 <div id="content1">
