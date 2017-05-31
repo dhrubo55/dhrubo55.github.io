@@ -52,13 +52,13 @@ body{
 #nav{
 	width: 60%;
 	display: inline-block;
-	text-align: left;
+	text-align: left:all;
 	float: left;
 }
 	#nav ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 62px;
+			height: 52px;
 		}
 			#nav ul li a{
 				padding: 20px;
