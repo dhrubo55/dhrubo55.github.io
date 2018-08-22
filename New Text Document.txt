@@ -3,16 +3,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="scriptFile.js"></script>
 </head>
   
 <body data-spy="scroll" data-target="#navbar" data-offset="50" >
@@ -26,7 +16,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#" target="_blank" title="my Website"><p>Mohibul Hassan Chowdhury</p></a>
+        <a class="navbar-brand" href="http://emant.altervista.org" target="_blank" title="my Website"><img src="http://emant.altervista.org/ext/logo.png" alt="EmAnt's Logo" /></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,19 +36,18 @@
         <div class="row">
           <div class="col-sm-12 head">
             <div class="logo">
-              <!--<img src="http://emant.altervista.org/ext/logo.png" alt="Mohibul Hassan Chowdhury's Logo" />-->
-              <h1>Mohibul Hassan Chowdhury</h1>
+              <img src="http://emant.altervista.org/ext/logo.png" alt="EmAnt's Logo" />
             </div>
-            <h1 class="stm-font">Software Developer in Training</h1>
+            <h1 class="stm-font">Web Design and Development</h1>
           </div>
         </div>
         <div class="row">
           <nav>
             <ul class="list-inline links ">
-              <li><a class="btn btn-default btn-lg" href="https://github.com/dhrubo55" title="Mohibul on GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
-              <!--<li><a class="btn btn-default btn-lg" href="http://codepen.io/Em-Ant/" title="EmAnt on Codepen" target="_blank"><i class="fa fa-codepen"></i></a></li>
-              <li><a class="btn btn-default btn-lg" href="http://theclubofastronauts.deviantart.com/"  title="EmAnt on DeviantArt" target="_blank"><i class="fa fa-deviantart"></i></a></li>-->
-              <li><a class="btn btn-default btn-lg" href="https://twitter.com/dhrubo555" title="Mohibul on Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="https://github.com/Em-Ant" title="EmAnt on GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="http://codepen.io/Em-Ant/" title="EmAnt on Codepen" target="_blank"><i class="fa fa-codepen"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="http://theclubofastronauts.deviantart.com/"  title="EmAnt on DeviantArt" target="_blank"><i class="fa fa-deviantart"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="https://twitter.com/js999x"  title="EmAnt on Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
             </ul>		
           </nav>
         </div>
@@ -68,19 +57,19 @@
           <div class="col-sm-4 hidden-xs">
             <div class="well shadow up-hover color-hover">
               <h1><i class="fa fa-lightbulb-o"></i></h1>
-              <h2 >Conceptualize</h2>
+              <h2 >Concept</h2>
             </div>	
           </div>
           <div class="col-sm-4 hidden-xs">
             <div class="well shadow up-hover color-hover">
-              <h1 ><i class="fa fa-cogs"></i></h1>
+              <h1 ><i class="fa fa-pencil-square-o"></i></h1>
               <h2 >Design</h2>
             </div>	
           </div>
           <div class="col-sm-4 hidden-xs">
             <div class="well shadow up-hover color-hover">
               <h1 ><i class="fa fa-code"></i></h1>
-              <h2 >Code</h2>
+              <h2 >Development</h2>
             </div>
           </div>
         </div>
@@ -95,19 +84,11 @@
           <img src="http://emant.altervista.org/ext/avatar.png" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
         </div>
         <div class="col-sm-8 ">
-          <h2 class="text-primary stm-font">Me:</h2>
-          <p>I am a software developer who specializes in JavaSE and JavaEE along with Android. Have worked with PHP for Web Development.</p>
-          <P>Machine learning enthusiast and Cloud Computing learner</P>
-          <h2 class="text-primary stm-font">Skills:</h2>
-          <p>Desktop Software Development(javaSE)</p>
-          <p>JavaEE Web development</p>
-          <p>Android App Development</p>
-          <p>Cloud Computing(AWS)</p>
-          <h2 class="text-primary stm-font">Tools:</h2>
-          <P>Android Studio, Java(Swing)</P>
-          <p>Linux - HTML, CSS, JavaScript - jQuery, Bootstrap, AJAX, MySQL</p>
-          <p>Git, Heroku, Docker</p>
-          <a class="btn btn-default btn-xl" href="E:\git\dhrubo55.github.io\Mohibul_Hassan_Chowdhury_CV.pdf" target="_blank">Resume</a>
+          <h2 class="text-primary stm-font">Skills</h2>
+          <p>Full Stack Web Development, Data Visualization, Flat Design, Vector Illustrations</p>
+          <h2 class="text-primary stm-font">Tools</h2>
+          <p>Linux - HTML, CSS, SASS, JavaScript - jQuery, Bootstrap, Angular.js, React.js, D3.js - Node.js, Express.js, php - MongoDB, MySQL - Git, Heroku</p>
+          <p>Inkscape, GIMP</p>
         </div>
       </div>
       </section>
@@ -182,15 +163,16 @@
          <div class="container">
         <div class="col-sm-4 hidden-xs">
           <ul class="list-unstyled">
-            <!--<li>Created for <a href="http://www.freecodecamp.com/" target="_blank">freeCodeCamp</a></li>-->
+            <li>Created for <a href="http://www.freecodecamp.com/" target="_blank">freeCodeCamp</a></li>
             <li>Powered by <a href="http://jquery.com/" target="_blank">jQuery</a></li>
             <li>Designed with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
-            <!--<li>Custom Graphics in <a href="http://inkscape.org/" target="_blank">Inkscape</a></li>-->				
+            <li>Custom Graphics in <a href="http://inkscape.org/" target="_blank">Inkscape</a></li>				
           </ul>
         </div>
         <div class="col-sm-8  center">
-            <p >contact me at <a href="mailto:insular55@gmail.com">insular55@gmail.com</a></p>
-            <p>Copyright &copy; 2018 by <a href="#" target="_blank">Mohibul Hassan Chowdhury</a></p>
+            <img id="flogo" src="http://emant.altervista.org/ext/logo.png" alt="logo: EmAnt" title="logo" width="150px"/>
+            <p >contact me at <a href="mailto:mail@example.com">mail@example.com</a></p>
+            <p>Copyright &copy; 2015 by <a href="http://emant.altervista.org/" target="_blank">EmAnt</a></p>
         </div>
       </div>
           </div>	  

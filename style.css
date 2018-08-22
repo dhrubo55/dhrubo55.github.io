@@ -1,188 +1,161 @@
-p{ 
-	line-height: 1em; 
-}
-h1{
-	color: rgb(79, 81, 96);
-	font-weight: normal;
-	line-height: 1 em;
-	margin: 0 0 .5em 0;
-	text-align: center;
-	font-size: 1.7em; 
-}
- h2, h3, h4{
-    color: rgb(79, 81, 96);
-	font-weight: normal;
-	line-height: 1 em;
-	margin: 0 0 .5em 0;
-}
-
-h2{ 
-	font-size: 1.5em; 
-}
-
-a{
-	color: black;
-	text-decoration: none;
-}
-	a:hover,
-	a:active{ text-decoration: underline; }
-
-p
-{
-   color: white; 	
-}
-
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-    background-image: url("http://wallpapercave.com/wp/xX2GRj6.gif");
-
+  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/green_dust_scratch.png');
+  position:relative;
+}
+.navbar-brand{
+  padding:5px;
+  padding-left : 20px;
+  height:50px;
+  position : relative;
 }
 
-#page{ margin: 20px; }
-
-
-#logo{
-	width: 35%;
-	margin-top: 5px;
-	font-family: georgia;
-	display: inline-block;
+.navbar-brand img{
+  height: 100%;
 }
 
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: left:all;
-	float: left;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 52px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: rgba(148,240,130,0.5);
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: #ffb424;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: #ff8f00; }
-
-#content{
-	margin: 20px 0;
-    background: rgba(76, 175, 80, 0.2);
-	padding: 10px;
-	clear: both;
+.thumbnail{
+  max-width : 500px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-
-#content1{
-	margin: 20px 0;
-	background: rgba(76, 175, 80, 0.2);
-	padding: 10px;
-	clear: both;
-    font-color:white;
+.shadow{
+  box-shadow: 7px 7px 7px #666;
+   position : relative;
+  transition : all 0.2s;
+  top : 0;
+}
+.cust-caption{
+  display:none;
+  position: absolute;
+  background-color: rgba(30,30,30,0.8);
+  padding : 10px;
+  color:#ddd;
+  margin:5px;
+  bottom:0;
+  left:0;
+  right:0;
+  height : 60%;
+  margin:5px;
+  overflow-y : auto;
 }
 
-#content2{
-	margin: 20px 0;
-	background: rgba(76, 175, 80, 0.2);
-	padding: 10px;
-	clear: both;
+.stm-font{
+  font-family: 'Share Tech Mono',monospace;
 }
 
-#content3{
-	margin: 20px 0;
-	background: rgba(76, 175, 80, 0.2);
-	padding: 10px;
-	clear: both;
-	font-color:white;
+.color-hover:hover{
+	color : #337AB7;
 }
 
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
+.up-hover:hover {
+  top :-5px;
+  box-shadow: 15px 15px 15px #777;
 }
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: silver;
-	}
 
-
-#converter
-{
-	border: 1px solid green;
-    position: relative;
-    margin-top: 10px; 
+.cust-caption a{
+  color:white;
+  
+  text-shadow:1px 1px 2px black;
 }
 
 
-#quotes
-{
-  border: thick solid grey
+.head h1{
+  color : white;
+}
+
+
+.heading{ 
+  text-align : center;
+  padding : 10px;
+}
+
+#about p{
+	font-size : 1.2em;
+		position : relative;
+	left : 10px;
 }
 
 
 
-/* hero converter drop down button css*/
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-
+.logo{
+	padding-top:50px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-
+.logo img{
+  position:relative;
+  width:100%;
+  max-width : 450px;
+  margin:auto;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.avatar{
+ display: block;
+	position:relative;
+	width : 200px;
+	margin:auto;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.showcase{
+	text-align:center;
+	padding-top:60px;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.showcase h1{
+font-size : 8em;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.btn{
+font-size: 1.5em;
 }
- /*here is the content portion */
-#content,
- ul li a{ box-shadow: 0px 1px 1px #999; }
-
-ol
-{
-	color: white;
+.links{
+	padding:30px 0;
 }
 
-table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    text-align: center;
+.main-nav{
+	padding-top:50px;
+}
+
+.main-nav h1{
+	padding-bottom:20px;
+}
+
+footer{
+  height : 100%;
+	min-height:250px;
+	color:#ccc;
+	font-size:1.5em;
+}
+
+.dark-bg {
+  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/stressed_linen.png');  
+}
+footer a{
+	color:white;
+}
+
+footer a:hover{
+	color:white;
+}
+
+
+footer img{
+	display:block;
+	position:relative;
+	margin:5px auto 20px auto;
+}
+
+.center{
+	text-align:center;
+}
+
+footer li, footer p{
+	margin : 0;
+	padding : 7px;
+}
+
+ul.links i {
+  font-size: 25px;
 }
