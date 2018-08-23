@@ -1,9 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 body{
-  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/green_dust_scratch.png');
-  position:relative;
+ color:#FFFFFF;
 }
+
+ h1{
+  color: black;
+ }
+
+ strong{
+  color: #337AB7;
+ }
+
+
+#paragraph p{
+  color: black;
+}
+
+
 .navbar-brand{
   padding:5px;
   padding-left : 20px;
@@ -154,7 +168,9 @@ footer img{
 footer li, footer p{
 	margin : 0;
 	padding : 7px;
+  color: white;
 }
+
 
 ul.links i {
   font-size: 25px;
